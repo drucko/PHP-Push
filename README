@@ -3,4 +3,9 @@ Mail: IMAP
 Calendar: CalDAV
 Contacts: LDAP
 
+Now i have adpted the Package that pho-push also works on Lighttp
+The only alias you have to set is:
+
+alias.url= ( "/Microsoft-Server-ActiveSync"=> "/path/toyour/php-push/index.php")
+
 Also thanks to Marco from https://www.forgetaboutit.net/software/ for a big part of the code!
